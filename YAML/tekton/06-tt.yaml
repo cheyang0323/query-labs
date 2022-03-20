@@ -30,7 +30,7 @@ spec:
         - name: APP_NAME
           value: spring-boot-ui
         - name: GIT_REPO
-          value: 'https://github.com/dyangcht/query-labs.git'
+          value: 'https://github.com/cheyang0323/query-labs.git'
         - name: GIT_REVISION
           value: v1.2
         - name: IMAGE_NAME

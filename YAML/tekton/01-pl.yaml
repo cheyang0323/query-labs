@@ -12,7 +12,7 @@ spec:
     - default: spring-boot-ui
       name: APP_NAME
       type: string
-    - default: 'https://github.com/dyangcht/query-labs.git'
+    - default: 'https://github.com/cheyang0323/query-labs.git'
       name: GIT_REPO
       type: string
     - default: v1.2
