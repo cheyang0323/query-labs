@@ -37,8 +37,8 @@ spec:
           value: 'image-registry.openshift-image-registry.svc:5000/demo/spring-boot-ui'
         - name: PATH_CONTEXT
           value: spring-boot-ui
-        - name: VERSION
-          value: openjdk-11-el7
+        # - name: VERSION
+          # value: openjdk-11-el7
         - name: templateFileName
           value: build/template/deploy-app-template.yaml
         - name: url

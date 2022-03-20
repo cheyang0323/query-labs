@@ -1,7 +1,8 @@
 apiVersion: operators.coreos.com/v1
 kind: OperatorGroup
 metadata:
-  name: postgresql-operator-dev4devs-com
+  # name: postgresql-operator-dev4devs-com
+  name: postgresql
   namespace: demo
 spec:
   targetNamespaces:

@@ -1,10 +1,13 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: Subscription
 metadata:
-  name: postgresql-operator-dev4devs-com
+  # name: postgresql-operator-dev4devs-com
+  name: postgresql
 spec:
-  channel: alpha
-  name: postgresql-operator-dev4devs-com
+  # channel: alpha
+  channel: v5
+  # name: postgresql-operator-dev4devs-com
+  name: postgresql
   sourceNamespace: openshift-marketplace 
   installPlanApproval: Automatic
   source: community-operators
